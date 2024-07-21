@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:latest
+    container_name: mysql_transporte
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: transporte_publico
+    ports:
+      - "3306:3306"
+    volumes:
+      - C:\borrar\Adalab\Analisis-de-Datos-de-Transporte-Publico-en-Espanha\Data\MysqlTransporte:/var/lib/mysql
+    restart: unless-stopped
