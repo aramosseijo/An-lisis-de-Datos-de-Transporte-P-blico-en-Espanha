@@ -1,0 +1,24 @@
+# Ignorar carpetas de checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar archivos de configuración de entorno virtual
+myenv/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos de configuración de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos temporales
+*.tmp
+*.bak

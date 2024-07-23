@@ -1,0 +1,5 @@
+# Ignorar carpetas de checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar la carpeta logs
+logs /
